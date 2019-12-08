@@ -34,14 +34,13 @@ a:hover, a:active
 .hidden {
   display: none;
 }
-#topBar
-{
+#topBar {
   background-color: #2cb34a;
   height: 15px;
 }
 #siteContainer 
 {
-  margin: 0 auto;
+  margin: auto;
   width: 1000px;
   padding-left: 20px;
   padding-right: 20px;
@@ -91,41 +90,4 @@ a:hover, a:active
   background-color: #fff;
 
 }
-#mainline {
-  color: #2e3192;
-  font-size: 24px;
-  
-}
-#DesLine {
-  color: #006837;
-}
-#membership {
-  color: #f8a350;
-  font-size: 18px;
-}
-#siteinfo {
-  margin-top: 40px;
-  border-bottom: solid 1px #DDD;
-  padding-bottom: 40px;
-  display: flex;
-  flex-direction: row;
-    justify-content: flex-start;
-}
-#siteinfo p {
-  line-height: 20px;
-}
 
-#mainText {
-   
-  margin-left: 720px;
-  width: 280px;
-}
-
-#mainImage {
-  margin-top: 40px;
-  
-  padding-bottom: 40px;
-  display: flex;
-  flex-direction: row;
-    justify-content: flex-start;
-}
