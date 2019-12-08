@@ -17,4 +17,4 @@ To run the index.html file , you will require to install browser such as google 
 JASKARAN SINGH
 
 ##License
-The project is copyright of JsGreens@2019
+The project is copyright of JsGreens@2019.
