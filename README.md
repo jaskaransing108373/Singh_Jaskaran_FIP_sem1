@@ -12,6 +12,16 @@ Steps :-
 3. In the folder named Singh_Jaskaran_FIP, open the link of index.html for accessing the first page of website.
 4. Templates of all three pages are provided in assets/mmed-1051 as a photoshop files. as well as the logo file is also provided in same folder.
 
+
+## Prerequistes
+To run the index.html file , you will require to install browser such as google chrome or firefox. And for editing the templates you need the licensed software of Adobe Photoshop and Adobe illutrator.
+
+##Author
+JASKARAN SINGH
+
+##License
+The project is copyright of JsGreens@2019.
+=======
 ### Prerequistes
 To run the index.html file , you will require to install browser such as google chrome or firefox. And for editing the templates you need the licensed software of Adobe Photoshop and Adobe illutrator. 
 
@@ -20,3 +30,4 @@ JASKARAN SINGH
 
 ### License
 The project is copyright of JsGreens@2019 
+
