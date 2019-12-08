@@ -16,14 +16,6 @@ Steps :-
 ## Prerequistes
 To run the index.html file , you will require to install browser such as google chrome or firefox. And for editing the templates you need the licensed software of Adobe Photoshop and Adobe illutrator.
 
-##Author
-JASKARAN SINGH
-
-##License
-The project is copyright of JsGreens@2019.
-=======
-### Prerequistes
-To run the index.html file , you will require to install browser such as google chrome or firefox. And for editing the templates you need the licensed software of Adobe Photoshop and Adobe illutrator. 
 
 ### Author 
 JASKARAN SINGH
