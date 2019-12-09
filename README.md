@@ -3,7 +3,7 @@
 # Js Greens - Greener the world, Healthier the people!
 This website is created for the purpose of serving the earth by providing the delivery of plants for free. Our vision is the green world. In today's modern world people do not have any time to grow plants, So our company provides the fully grown plants at no extra cost. Just you need to water them on regular basis and take the benifit. Moreover we also provide plants that are used in treating various health problems. 
 
-### Getting started 
+## Getting started 
 These instructions will get you the copy of project and will also guide you about how to develop and test it. See Deployment for notes on how to deploy the project on your Mac/Pc.
 
 Steps :- 
@@ -17,9 +17,9 @@ Steps :-
 To run the index.html file , you will require to install browser such as google chrome or firefox. And for editing the templates you need the licensed software of Adobe Photoshop and Adobe illutrator.
 
 
-### Author 
+## Author 
 JASKARAN SINGH
 
-### License
+## License
 The project is copyright of JsGreens@2019 
 
