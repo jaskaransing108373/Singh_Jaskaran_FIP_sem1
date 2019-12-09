@@ -18,7 +18,7 @@ body
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   color: #333;
-  max-width: 1500px;
+  max-width: 900px;
 }
 
 a:link, a:visited 
@@ -42,7 +42,7 @@ a:hover, a:active
 #siteContainer 
 {
   margin: auto;
-  max-width: 1500px;
+  max-width: 900px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -103,7 +103,7 @@ a:hover, a:active
 }
 
 #flex2 {
-  max-width: 1500px;
+  max-width: 900px;
   margin-top: 40px;
   padding-bottom: 30px;
   padding-left: 20px;
@@ -116,7 +116,9 @@ a:hover, a:active
   display: flex;
   justify-content: space-between;
 }
+
 #iconNav li {
+  padding-top: 15px;
   display: inline-block;
 
 }
@@ -195,6 +197,10 @@ a:hover, a:active
   border-bottom: 1px solid #DDD;
   line-height: 0.1em;
   margin: 10px 0px 20px 0px;
-  
-
+}
+.show span {
+  background: limegreen;
+  color: white;
+  padding: 10px;
+  font-style: italic;
 }
