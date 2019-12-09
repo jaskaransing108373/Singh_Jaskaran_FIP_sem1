@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
       <title>Js Greens Co.</title>
       <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
-<body>
-      <header>
+<body>   
+    <div id="topbar"></div>
+    <div id="siteContainer">
+      <header id="mainHeader">
       <h1 class="hidden">Js Greens co.</h1>
+      <div id="logoHeader">
       <img src="images/1_logo.jpg" alt="logo">
-      <nav>
+      </div>
+
+      <nav id="mainNav">
         <h2 class="hidden">main Nav</h2>
       <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
+      <li class="selected"><a href="about.html">About Us</a></li>
       <li><a href="contact.html">Contact Us</a></li>
       </ul>
       </nav>
 </header>
+</div>
     <section>
         <h2>About Us</h2>
         <p>Our Website is all about the fully grown Organic plants. We bring different varieties of international and national plants at your door--step with no extra charges.Plants arrive from very trusted growers.We believe in Greener and Healthier world. </p>
@@ -27,16 +34,21 @@
             <p>I am very passionate regarding the plantsand my dream is to make the world green. I am regarding my customers byproviding them free  delivery. For contacting me, email at jas6969001@gmail.co.</p>
             <p>follow me@</p>
         </section>
-    <footer>
+<footer>
+  <div id="footerflex">
+      <div id="footer1">
+        <img src="images/1_logo.jpg" alt="logo">
     <nav>
       <h2 class="hidden">Footer Nav</h2>
-       <ul>
+       <ul id="unordered">
        <li><a href="index.html">Home</a></li>
-       <li><a href="about.html">About Us</a></li>
+       <li class="selected"><a href="about.html">About Us</a></li>
        <li><a href="contact.html">Contact Us</a></li>
        </ul>
     </nav>
-    <section>
+      </div>
+
+    <div>
       <h2 class="hidden">Social Media</h2>
         <ul id="iconNav">
             <li id="facebook">
@@ -55,9 +67,9 @@
               </a>
            </li>
         </ul>
-      
-    </section>
-<p>copyright@jsgreens</p>
+      <p>copyright@jsgreens2019</p>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
