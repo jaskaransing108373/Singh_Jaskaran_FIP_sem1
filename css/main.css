@@ -125,6 +125,7 @@ a:hover, a:active
 #iconNav li a img{
   height: 35px;
   width: 35px;
+
 }
 #unordered li {
   display: inline;
@@ -154,6 +155,7 @@ a:hover, a:active
   font-size: 16px;
   padding-left: 50px;
   padding-top: 20px;
+  cursor: pointer;
 }
 .para7 {
   font-size: 14px;
@@ -181,14 +183,17 @@ a:hover, a:active
   padding-bottom: 113px;
   color: white;
   font-size: 35px;
+  cursor: pointer;
 }
 .para5 {
  color: red
  padding-bottom: 100px;
+ cursor: pointer;
 }
 .para6 {
-  font-size: 30px;
+  font-size: 20px;
   color: #2812b2;
+  cursor: pointer;
   margin: 0px;
   padding-left: 0px;
 }
@@ -203,4 +208,30 @@ a:hover, a:active
   color: white;
   padding: 10px;
   font-style: italic;
+}
+#contentCon {
+  margin-top: 40px;
+  border-bottom: solid 1px #DDD;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+#contentCon p 
+{
+  line-height: 630px;
+}
+
+#content1 
+{
+  width: 640px;
+  padding-left: 100px;
+}
+
+#content2 
+{
+  margin-left: 40px;
+  width: 440px;
 }

@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
       <title>Js Greens Co.</title>
       <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
-<body>
-      <header>
+<body>   
+    <div id="topbar"></div>
+    <div id="siteContainer">
+      <header id="mainHeader">
       <h1 class="hidden">Js Greens co.</h1>
+      <div id="logoHeader">
       <img src="images/1_logo.jpg" alt="logo">
-      <nav>
+      </div>
+
+      <nav id="mainNav">
         <h2 class="hidden">main Nav</h2>
       <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About Us</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li class="selected"><a href="contact.html">Contact Us</a></li>
       </ul>
       </nav>
 </header>
-    <section>
+</div>
+    <section id="contentCon">
+        <div id="content2">
         <img src="images/contact.jpg" alt="plant image">
+        </div>
+        <div id="content1">
     	<h2>Contact us</h2>
     	<form action="form.php" method="post">
     		<label>Your Name:</label><br>
@@ -32,18 +42,23 @@
     	</form>
       <h3>Email - jsgreens@organicplants.ca</h3>
       <h3>Call us at - 788-555-0001</h3>
-
+     </div>
     </section>
 <footer>
+  <div id="footerflex">
+      <div id="footer1">
+        <img src="images/1_logo.jpg" alt="logo">
     <nav>
       <h2 class="hidden">Footer Nav</h2>
-       <ul>
+       <ul id="unordered">
        <li><a href="index.html">Home</a></li>
        <li><a href="about.html">About Us</a></li>
-       <li><a href="contact.html">Contact Us</a></li>
+       <li class="selected"><a href="contact.html">Contact Us</a></li>
        </ul>
     </nav>
-    <section>
+      </div>
+
+    <div>
       <h2 class="hidden">Social Media</h2>
         <ul id="iconNav">
             <li id="facebook">
@@ -62,9 +77,9 @@
               </a>
            </li>
         </ul>
-      
-    </section>
-<p>copyright@jsgreens</p>
+      <p>copyright@jsgreens2019</p>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
