@@ -41,7 +41,7 @@ a:hover, a:active
 #siteContainer 
 {
   margin: auto;
-  width: 1000px;
+  max-width: 1500px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -59,7 +59,7 @@ a:hover, a:active
   width: 200px;
 }
 #mainNav {
-  width: 320px;
+  max-width: 400px;
   height: 25px;
   margin-top: 50px;
   margin-left: auto;
@@ -67,6 +67,7 @@ a:hover, a:active
 #mainNav ul {
   list-style-type: none;
   padding: 500;
+  margin-top: 50;
 }
 
 #mainNav ul li {
@@ -88,6 +89,23 @@ a:hover, a:active
 #selected {
   padding: 5px 0px 5px 0px;
   background-color: #fff;
+  font-weight: bold;
 
 }
 
+#mainImageflex {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#flex2 {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 1px #DDD;
+}
